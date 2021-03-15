@@ -1,0 +1,76 @@
+body {
+  font-family: Roboto;
+  background-color: #45C9C4;
+  color:white;
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.quick-add-button {
+    min-height: 100px;
+    background-color: #59AFC4;
+    min-height: 35px;   
+}
+
+.clear-btn{    
+    min-height: 50px;
+    background-color: #e98167;    
+}
+
+.btn{
+    min-width: 100%;
+    color: white;
+    border:2px solid white;  
+    border-radius: 4px; 
+    text-transform: uppercase;
+    margin-top: 5px;
+    outline: none;
+}
+
+.btn-group{
+    margin-top: 15px;
+}
+
+.number-input{
+    min-height: 35px;
+    min-width: 300px;
+    background-color: #AAF08E;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    border-radius: 4px;  
+    border:2px solid white; 
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}

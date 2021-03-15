@@ -1,0 +1,39 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <title>KCalc</title>
+
+        <link rel="stylesheet" href="app.css">
+        <link rel="manifest" href="manifest.json">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <meta charset="utf-8">
+        <meta name="theme-color" content="white" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="white" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="KCalc">
+        <meta name="msapplication-TileImage" content="android-chrome-512x512.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+    </head>
+    <body class="fullscreen">
+        <div class="container">
+            <h1 class="title">KCalc!</h1>
+            <h2 id="calories-label">0</h2>
+            <div class="container">
+                <div class="container input-group">
+                    <input type="number" name="kilojoules" placeholder="enter Kilojoules" class="number-input" id="kj-input"/>
+                </div>
+                <div class="container btn-group">
+                    <button quick-add-amount="10" class="btn quick-add-button">Add 10</button>
+                    <button quick-add-amount="100" class="btn quick-add-button">Add 100</button>
+                    <button quick-add-amount="1000" class="btn quick-add-button">Add 1000</button>
+                </div>
+            
+            <button class="btn clear-btn">clear</button></div>
+        </div>        
+        <script src="app.js"></script>        
+    </body>
+</html>
